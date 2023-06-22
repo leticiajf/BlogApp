@@ -82,7 +82,7 @@ final class BlogAppNewPostView: UIView {
         addButton.layer.cornerRadius = 8
         addButton.setTitle("Adicionar Post!", for: .normal)
         addButton.titleLabel?.font = .systemFont(ofSize: 20, weight: .regular)
-        addButton.backgroundColor = .black
+        addButton.backgroundColor = .systemPink
         addButton.addTarget(self, action: #selector(didTapAddButton), for: .touchUpInside)
         return addButton
     }()

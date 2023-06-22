@@ -89,7 +89,7 @@ final class BlogAppDetailView: UIView {
         backButton.layer.cornerRadius = 8
         backButton.setTitle("Voltar", for: .normal)
         backButton.titleLabel?.font = .systemFont(ofSize: 20, weight: .regular)
-        backButton.backgroundColor = .black
+        backButton.backgroundColor = .systemPink
         backButton.addTarget(self, action: #selector(didTapBackButton), for: .touchUpInside)
         return backButton
     }()

@@ -62,7 +62,7 @@ final class BlogAppHomeView: UIView {
         newPostButton.layer.cornerRadius = 8
         newPostButton.setTitle("Adicionar Novo Post", for: .normal)
         newPostButton.titleLabel?.font = .systemFont(ofSize: 20, weight: .regular)
-        newPostButton.backgroundColor = .black
+        newPostButton.backgroundColor = .systemPink
         newPostButton.addTarget(self, action: #selector(didTapNewPostButton), for: .touchUpInside)
         return newPostButton
     }()

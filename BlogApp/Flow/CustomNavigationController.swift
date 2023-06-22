@@ -17,7 +17,7 @@ class CustomNavigationController: UINavigationController {
     private func configureNavBarAppearance() {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = .purple
+        appearance.backgroundColor = .systemPink
         appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
         navigationBar.standardAppearance = appearance
         navigationBar.scrollEdgeAppearance = navigationBar.standardAppearance
