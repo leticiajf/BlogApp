@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF701F992A42711C0051A9DB /* BlogAppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF701F982A42711C0051A9DB /* BlogAppDetailView.swift */; };
+		CF701F9C2A4276CC0051A9DB /* BlogAppNewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF701F9B2A4276CC0051A9DB /* BlogAppNewPostView.swift */; };
+		CFBD4C052A43350D00436596 /* BlogAppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C042A43350D00436596 /* BlogAppDetailViewController.swift */; };
+		CFBD4C072A4335A600436596 /* BlogAppNewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C062A4335A600436596 /* BlogAppNewPostViewController.swift */; };
+		CFBD4C092A434F6300436596 /* BlogAppHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C082A434F6300436596 /* BlogAppHomeModel.swift */; };
+		CFBD4C0B2A438AF800436596 /* BlogAppHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C0A2A438AF700436596 /* BlogAppHomeViewModel.swift */; };
+		CFBD4C102A438DB100436596 /* BlogAppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C0F2A438DB100436596 /* BlogAppService.swift */; };
+		CFBD4C122A438E2E00436596 /* BlogAppRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C112A438E2E00436596 /* BlogAppRequestProtocol.swift */; };
+		CFBD4C142A4391E500436596 /* BlogAppRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C132A4391E500436596 /* BlogAppRequest.swift */; };
+		CFBD4C162A43969500436596 /* BlogAppHomeViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C152A43969500436596 /* BlogAppHomeViewModelProtocol.swift */; };
+		CFBD4C182A43BE5A00436596 /* BlogAppNewPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C172A43BE5A00436596 /* BlogAppNewPostViewModel.swift */; };
+		CFBD4C1A2A43BF2D00436596 /* BlogAppNewPostHomeViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C192A43BF2D00436596 /* BlogAppNewPostHomeViewModelProtocol.swift */; };
+		CFBD4C202A43C46B00436596 /* BlogAppServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C1F2A43C46B00436596 /* BlogAppServiceProtocol.swift */; };
+		CFBD4C222A43C64300436596 /* BlogAppMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C212A43C64300436596 /* BlogAppMock.swift */; };
+		CFBD4C252A43C93F00436596 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD4C242A43C93F00436596 /* CustomNavigationController.swift */; };
+		CFD080282A4217D10034CEBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD080272A4217D10034CEBF /* AppDelegate.swift */; };
+		CFD0802A2A4217D20034CEBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD080292A4217D20034CEBF /* SceneDelegate.swift */; };
+		CFD0802C2A4217D20034CEBF /* BlogAppHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0802B2A4217D20034CEBF /* BlogAppHomeViewController.swift */; };
+		CFD080312A4217D30034CEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD080302A4217D30034CEBF /* Assets.xcassets */; };
+		CFD080342A4217D30034CEBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD080322A4217D30034CEBF /* LaunchScreen.storyboard */; };
+		CFD0803E2A421BC60034CEBF /* BlogAppFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0803D2A421BC60034CEBF /* BlogAppFlowController.swift */; };
+		CFD080422A421E960034CEBF /* BlogAppHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD080412A421E960034CEBF /* BlogAppHomeView.swift */; };
+		CFD080442A4228040034CEBF /* BlogAppHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD080432A4228040034CEBF /* BlogAppHomeTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF701F982A42711C0051A9DB /* BlogAppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppDetailView.swift; sourceTree = "<group>"; };
+		CF701F9B2A4276CC0051A9DB /* BlogAppNewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppNewPostView.swift; sourceTree = "<group>"; };
+		CFBD4C042A43350D00436596 /* BlogAppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppDetailViewController.swift; sourceTree = "<group>"; };
+		CFBD4C062A4335A600436596 /* BlogAppNewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppNewPostViewController.swift; sourceTree = "<group>"; };
+		CFBD4C082A434F6300436596 /* BlogAppHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppHomeModel.swift; sourceTree = "<group>"; };
+		CFBD4C0A2A438AF700436596 /* BlogAppHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppHomeViewModel.swift; sourceTree = "<group>"; };
+		CFBD4C0F2A438DB100436596 /* BlogAppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppService.swift; sourceTree = "<group>"; };
+		CFBD4C112A438E2E00436596 /* BlogAppRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppRequestProtocol.swift; sourceTree = "<group>"; };
+		CFBD4C132A4391E500436596 /* BlogAppRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppRequest.swift; sourceTree = "<group>"; };
+		CFBD4C152A43969500436596 /* BlogAppHomeViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppHomeViewModelProtocol.swift; sourceTree = "<group>"; };
+		CFBD4C172A43BE5A00436596 /* BlogAppNewPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppNewPostViewModel.swift; sourceTree = "<group>"; };
+		CFBD4C192A43BF2D00436596 /* BlogAppNewPostHomeViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppNewPostHomeViewModelProtocol.swift; sourceTree = "<group>"; };
+		CFBD4C1F2A43C46B00436596 /* BlogAppServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppServiceProtocol.swift; sourceTree = "<group>"; };
+		CFBD4C212A43C64300436596 /* BlogAppMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppMock.swift; sourceTree = "<group>"; };
+		CFBD4C242A43C93F00436596 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		CFD080242A4217D10034CEBF /* BlogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD080272A4217D10034CEBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFD080292A4217D20034CEBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFD0802B2A4217D20034CEBF /* BlogAppHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppHomeViewController.swift; sourceTree = "<group>"; };
+		CFD080302A4217D30034CEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD080332A4217D30034CEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFD080352A4217D30034CEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD0803D2A421BC60034CEBF /* BlogAppFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppFlowController.swift; sourceTree = "<group>"; };
+		CFD080412A421E960034CEBF /* BlogAppHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppHomeView.swift; sourceTree = "<group>"; };
+		CFD080432A4228040034CEBF /* BlogAppHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogAppHomeTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD080212A4217D10034CEBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF701F972A4270F90051A9DB /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD4C042A43350D00436596 /* BlogAppDetailViewController.swift */,
+				CF701F982A42711C0051A9DB /* BlogAppDetailView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		CF701F9A2A4276950051A9DB /* NewPostView */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD4C062A4335A600436596 /* BlogAppNewPostViewController.swift */,
+				CFBD4C172A43BE5A00436596 /* BlogAppNewPostViewModel.swift */,
+				CF701F9B2A4276CC0051A9DB /* BlogAppNewPostView.swift */,
+				CFBD4C1D2A43C40D00436596 /* Protocol */,
+			);
+			path = NewPostView;
+			sourceTree = "<group>";
+		};
+		CFBD4C0C2A438D7400436596 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD4C0F2A438DB100436596 /* BlogAppService.swift */,
+				CFBD4C132A4391E500436596 /* BlogAppRequest.swift */,
+				CFBD4C1E2A43C42E00436596 /* Protocol */,
+				CFBD4C232A43C6B700436596 /* Mock */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CFBD4C1B2A43C36100436596 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD4C082A434F6300436596 /* BlogAppHomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFBD4C1C2A43C38000436596 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD4C152A43969500436596 /* BlogAppHomeViewModelProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CFBD4C1D2A43C40D00436596 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD4C192A43BF2D00436596 /* BlogAppNewPostHomeViewModelProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CFBD4C1E2A43C42E00436596 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD4C1F2A43C46B00436596 /* BlogAppServiceProtocol.swift */,
+				CFBD4C112A438E2E00436596 /* BlogAppRequestProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CFBD4C232A43C6B700436596 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD4C212A43C64300436596 /* BlogAppMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		CFD0801B2A4217D10034CEBF = {
+			isa = PBXGroup;
+			children = (
+				CFD080262A4217D10034CEBF /* BlogApp */,
+				CFD080252A4217D10034CEBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD080252A4217D10034CEBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD080242A4217D10034CEBF /* BlogApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD080262A4217D10034CEBF /* BlogApp */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0803B2A421B1C0034CEBF /* Core */,
+				CFD0803C2A421B280034CEBF /* Flow */,
+				CFBD4C0C2A438D7400436596 /* Service */,
+				CFD0803F2A421E610034CEBF /* Features */,
+				CFD080302A4217D30034CEBF /* Assets.xcassets */,
+				CFD080322A4217D30034CEBF /* LaunchScreen.storyboard */,
+			);
+			path = BlogApp;
+			sourceTree = "<group>";
+		};
+		CFD0803B2A421B1C0034CEBF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CFD080352A4217D30034CEBF /* Info.plist */,
+				CFD080292A4217D20034CEBF /* SceneDelegate.swift */,
+				CFD080272A4217D10034CEBF /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CFD0803C2A421B280034CEBF /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0803D2A421BC60034CEBF /* BlogAppFlowController.swift */,
+				CFBD4C242A43C93F00436596 /* CustomNavigationController.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		CFD0803F2A421E610034CEBF /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CFD080402A421E6C0034CEBF /* Home */,
+				CF701F972A4270F90051A9DB /* DetailView */,
+				CF701F9A2A4276950051A9DB /* NewPostView */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CFD080402A421E6C0034CEBF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0802B2A4217D20034CEBF /* BlogAppHomeViewController.swift */,
+				CFBD4C0A2A438AF700436596 /* BlogAppHomeViewModel.swift */,
+				CFD080412A421E960034CEBF /* BlogAppHomeView.swift */,
+				CFD080432A4228040034CEBF /* BlogAppHomeTableViewCell.swift */,
+				CFBD4C1B2A43C36100436596 /* Model */,
+				CFBD4C1C2A43C38000436596 /* Protocol */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD080232A4217D10034CEBF /* BlogApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD080382A4217D30034CEBF /* Build configuration list for PBXNativeTarget "BlogApp" */;
+			buildPhases = (
+				CFD080202A4217D10034CEBF /* Sources */,
+				CFD080212A4217D10034CEBF /* Frameworks */,
+				CFD080222A4217D10034CEBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlogApp;
+			productName = BlogApp;
+			productReference = CFD080242A4217D10034CEBF /* BlogApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD0801C2A4217D10034CEBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CFD080232A4217D10034CEBF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = CFD0801F2A4217D10034CEBF /* Build configuration list for PBXProject "BlogApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD0801B2A4217D10034CEBF;
+			productRefGroup = CFD080252A4217D10034CEBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD080232A4217D10034CEBF /* BlogApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD080222A4217D10034CEBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD080342A4217D30034CEBF /* LaunchScreen.storyboard in Resources */,
+				CFD080312A4217D30034CEBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD080202A4217D10034CEBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBD4C202A43C46B00436596 /* BlogAppServiceProtocol.swift in Sources */,
+				CFD0802C2A4217D20034CEBF /* BlogAppHomeViewController.swift in Sources */,
+				CFBD4C182A43BE5A00436596 /* BlogAppNewPostViewModel.swift in Sources */,
+				CFBD4C142A4391E500436596 /* BlogAppRequest.swift in Sources */,
+				CFD080282A4217D10034CEBF /* AppDelegate.swift in Sources */,
+				CFD0802A2A4217D20034CEBF /* SceneDelegate.swift in Sources */,
+				CF701F9C2A4276CC0051A9DB /* BlogAppNewPostView.swift in Sources */,
+				CFBD4C1A2A43BF2D00436596 /* BlogAppNewPostHomeViewModelProtocol.swift in Sources */,
+				CFBD4C252A43C93F00436596 /* CustomNavigationController.swift in Sources */,
+				CFD080422A421E960034CEBF /* BlogAppHomeView.swift in Sources */,
+				CFBD4C122A438E2E00436596 /* BlogAppRequestProtocol.swift in Sources */,
+				CFBD4C052A43350D00436596 /* BlogAppDetailViewController.swift in Sources */,
+				CF701F992A42711C0051A9DB /* BlogAppDetailView.swift in Sources */,
+				CFD080442A4228040034CEBF /* BlogAppHomeTableViewCell.swift in Sources */,
+				CFD0803E2A421BC60034CEBF /* BlogAppFlowController.swift in Sources */,
+				CFBD4C072A4335A600436596 /* BlogAppNewPostViewController.swift in Sources */,
+				CFBD4C102A438DB100436596 /* BlogAppService.swift in Sources */,
+				CFBD4C162A43969500436596 /* BlogAppHomeViewModelProtocol.swift in Sources */,
+				CFBD4C092A434F6300436596 /* BlogAppHomeModel.swift in Sources */,
+				CFBD4C0B2A438AF800436596 /* BlogAppHomeViewModel.swift in Sources */,
+				CFBD4C222A43C64300436596 /* BlogAppMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFD080322A4217D30034CEBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD080332A4217D30034CEBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFD080362A4217D30034CEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFD080372A4217D30034CEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFD080392A4217D30034CEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlogApp/Core/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leticiaferreira.BlogApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFD0803A2A4217D30034CEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlogApp/Core/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leticiaferreira.BlogApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD0801F2A4217D10034CEBF /* Build configuration list for PBXProject "BlogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD080362A4217D30034CEBF /* Debug */,
+				CFD080372A4217D30034CEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD080382A4217D30034CEBF /* Build configuration list for PBXNativeTarget "BlogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD080392A4217D30034CEBF /* Debug */,
+				CFD0803A2A4217D30034CEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD0801C2A4217D10034CEBF /* Project object */;
+}
